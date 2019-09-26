@@ -7,7 +7,7 @@
 ! 23-AUG-2006, P. Emma
 !    Change LCAV TYPE's back to L1_9_50, etc
 ! 01-DEC-2005, P. Emma
-!    Move XC21202 and YC21203 onto end of 21-1d.
+!    Move XC21175 and YC21174 onto end of 21-1d.
 ! 29-NOV-2005, P. Emma
 !    Add types for LCAV's.
 ! 09-NOV-2005, P. Emma
@@ -38,7 +38,7 @@
              QA11,BPMA11,QA11,DAQA2,SCA11,&
              K21_1c,DAQA3,&
              QA12,BPMA12,QA12,DAQA4,SCA12,&
-             K21_1d,YC21203,XC21202,&
+             K21_1d,YC21174,XC21175,&
              L1end)
 
 ! ==============================================================================

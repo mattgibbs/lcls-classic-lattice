@@ -2610,15 +2610,15 @@
   XC08   : HKIC,TYPE="class-1a"
   XC09   : HKIC,TYPE="class-1a"
   XC10   : HKIC,TYPE="class-1a"
-  XC11   : HKIC,TYPE="class-1s"
+  XC21101   : HKIC,TYPE="class-1s"
 
-  XCA11  : HKIC,TYPE="class-1s"
-  XCA12  : HKIC,TYPE="class-1s"       ! calibrated to <1%
+  XC21135  : HKIC,TYPE="class-1s"
+  XC21165  : HKIC,TYPE="class-1s"       ! calibrated to <1%
 
-  XC21202: HKIC,TYPE="type-4al"       ! pulled off structure and replaced on beamline?
+  XC21175: HKIC,TYPE="type-4al"       ! pulled off structure and replaced on beamline?
   XC21302: HKIC,TYPE="type-4al"       ! pulled off structure and replaced on beamline?
-  XCM11  : HKIC,TYPE="class-1x"
-  XCM13  : HKIC,TYPE="class-1a"
+  XC21191  : HKIC,TYPE="class-1x"
+  XC21275  : HKIC,TYPE="class-1a"
   XCM14  : HKIC,TYPE="class-1a"
 
  !XCVB2  : HKIC,TYPE="class-4"       ! removed from beamline
@@ -2658,15 +2658,15 @@
   YC08    : VKIC,TYPE="class-1a"
   YC09    : VKIC,TYPE="class-1a"
   YC10    : VKIC,TYPE="class-1a"
-  YC11    : VKIC,TYPE="class-1s"
+  YC21102    : VKIC,TYPE="class-1s"
 
-  YCA11   : VKIC,TYPE="class-1s"       ! calibrated to <1%
-  YCA12   : VKIC,TYPE="class-1s"
+  YC21136   : VKIC,TYPE="class-1s"       ! calibrated to <1%
+  YC21166   : VKIC,TYPE="class-1s"
 
-  YC21203 : VKIC,TYPE="type-4al"
+  YC21174 : VKIC,TYPE="type-4al"
   YC21303 : VKIC,TYPE="type-4al"       ! pulled off structure and replaced on beamline?
-  YCM11   : VKIC,TYPE="class-1x"
-  YCM12   : VKIC,TYPE="class-1a"
+  YC21192   : VKIC,TYPE="class-1x"
+  YC21276   : VKIC,TYPE="class-1a"
   YCM15   : VKIC,TYPE="class-1a"
 
   YCVB1  : VKIC,TYPE="class-4"
@@ -3006,11 +3006,11 @@
   SC8   : LINE=(XC08,YC08)
   SC9   : LINE=(XC09,YC09)
   SC10  : LINE=(XC10,YC10)
-  SC11  : LINE=(XC11,YC11)
-  SCA11 : LINE=(XCA11,YCA11)
-  SCA12 : LINE=(XCA12,YCA12)
-  SCM11 : LINE=(XCM11,YCM11)
-  SCM13 : LINE=(XCM13,YCM12)
+  SC11  : LINE=(XC21101,YC21102)
+  SCA11 : LINE=(XC21135,YC21136)
+  SCA12 : LINE=(XC21165,YC21166)
+  SCM11 : LINE=(XC21191,YC21192)
+  SCM13 : LINE=(XC21275,YC21276)
   SCM15 : LINE=(XCM14,YCM15)
 
   GUNBXG: LINE=(DL00,LOADLOCK,L0beg,SOL1BK,DBMARK80,CATHODE,DL01a,&

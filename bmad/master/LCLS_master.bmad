@@ -2574,15 +2574,15 @@ xc07: kicker, type = "class-1a"       ! fast-feedback (loop-1)
 xc08: kicker, type = "class-1a"
 xc09: kicker, type = "class-1a"
 xc10: kicker, type = "class-1a"
-xc11: kicker, type = "class-1s"
+XC21101: kicker, type = "class-1s"
 
-xca11: kicker, type = "class-1s"
-xca12: kicker, type = "class-1s"       ! calibrated to <1%
+XC21135: kicker, type = "class-1s"
+XC21165: kicker, type = "class-1s"       ! calibrated to <1%
 
-xc21202: kicker, type = "type-4al"       ! pulled off structure and replaced on beamline?
+XC21175: kicker, type = "type-4al"       ! pulled off structure and replaced on beamline?
 xc21302: kicker, type = "type-4al"       ! pulled off structure and replaced on beamline?
-xcm11: kicker, type = "class-1x"
-xcm13: kicker, type = "class-1a"
+XC21191: kicker, type = "class-1x"
+XC21275: kicker, type = "class-1a"
 xcm14: kicker, type = "class-1a"
 
  !XCVB2  : HKIC,TYPE="class-4"       ! removed from beamline
@@ -2622,15 +2622,15 @@ yc07: kicker, type = "class-1a"       ! fast-feedback (loop-1)
 yc08: kicker, type = "class-1a"
 yc09: kicker, type = "class-1a"
 yc10: kicker, type = "class-1a"
-yc11: kicker, type = "class-1s"
+YC21102: kicker, type = "class-1s"
 
-yca11: kicker, type = "class-1s"       ! calibrated to <1%
-yca12: kicker, type = "class-1s"
+YC21136: kicker, type = "class-1s"       ! calibrated to <1%
+YC21166: kicker, type = "class-1s"
 
-yc21203: kicker, type = "type-4al"
+YC21174: kicker, type = "type-4al"
 yc21303: kicker, type = "type-4al"       ! pulled off structure and replaced on beamline?
-ycm11: kicker, type = "class-1x"
-ycm12: kicker, type = "class-1a"
+YC21192: kicker, type = "class-1x"
+YC21276: kicker, type = "class-1a"
 ycm15: kicker, type = "class-1a"
 
 ycvb1: kicker, type = "class-4"
@@ -2966,11 +2966,11 @@ sc7: line = (xc07, yc07)
 sc8: line = (xc08, yc08)
 sc9: line = (xc09, yc09)
 sc10: line = (xc10, yc10)
-sc11: line = (xc11, yc11)
-sca11: line = (xca11, yca11)
-sca12: line = (xca12, yca12)
-scm11: line = (xcm11, ycm11)
-scm13: line = (xcm13, ycm12)
+sc11: line = (XC21101, YC21102)
+sca11: line = (XC21135, YC21136)
+sca12: line = (XC21165, YC21166)
+scm11: line = (XC21191, YC21192)
+scm13: line = (XC21275, YC21276)
 scm15: line = (xcm14, ycm15)
 
 gunbxg: line = (dl00, loadlock, l0beg, sol1bk, dbmark80, cathode, dl01a, sol1, cq01, cq01, sc0,  &

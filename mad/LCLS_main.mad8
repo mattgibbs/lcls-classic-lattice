@@ -190,7 +190,7 @@
 ! 13-JUL-2008, P. Emma
 !    Set BYD1,2,3 to FINT = 0.57, based on magnetic measurements. Set up L3 MUX
 !    to get nearly 45-deg per S28 wire (all new quad settings from QM22 through
-!    QVM4).  Update PCMUON ID. Move XCM13/YCM12 center to 14" downstream of QM13
+!    QVM4).  Update PCMUON ID. Move XC21275/YC21276 center to 14" downstream of QM13
 !    center as done in tunnel in July to allow L2 feedback and QM13 quad scans.
 !    Change BXH1-4 FINT from 0.5 (guess) to 0.400 (measured) and increase Leff
 !    of BXH1-4 from 0.110 m (R. Carr from 2005) to 0.1244 m (measured).
@@ -370,7 +370,7 @@
 !   and OTRS1 positions and adjust their locations to fit. Add R(5,6) of
 !   laser-heater undulator. Swap VV04 & SC8 and tweak Z per Wing. Tweak
 !   BPMS3, YAGS2, and OTRS1 positions per Wing. HTRMID renamed to HTRUND.
-!   Also moved SC11, SCA11, SCA12, YC21203, and XC21202 in LCLS_L1.xsif per
+!   Also moved SC11, SCA11, SCA12, YC21174, and XC21175 in LCLS_L1.xsif per
 !   P. Stephens.  Finally, removed VV0A per Leif, and moved YC21303 upbeam
 !   of WS13 to make room for McCormick's fast ion chamber in front of TD11.
 ! 21-FEB-2006, P. Emma
@@ -419,7 +419,7 @@
 !   Adjust QE01-QE03 for laser-heater shuffling, including hor. chicane
 !   offset from 2.5 cm to 4.0 cm done while sliding BXH1 ansd BXH4 outboard
 !   by 10 cm more. Also move ZLIN02 from 2045.365312 to 2045.436400 m
-!   (Q21201 moved a bit). Move XC21202 & YC21203 onto end of 21-1d.
+!   (Q21201 moved a bit). Move XC21175 & YC21174 onto end of 21-1d.
 ! 29-NOV-2005, P. Emma
 !   Fix X-band RF split so EXCEL file shows one cavity only (i.e., rename from
 !   L1X_A and L1X_B to L1X___1 and L1X___2 - such that 1st 6 characters are
@@ -439,7 +439,7 @@
 !   Modify 135-MeV spectrometer to get more x-separation with linac
 !   (per Cecile).
 ! 09-NOV-2005, P. Emma
-!   Add YCM11 and use x/y corrector packages for type-1 correctors.
+!   Add YC21192 and use x/y corrector packages for type-1 correctors.
 !   Make various small adjustments to elements to be consistent
 !   with drawings.  Add IMS1 toroid, YAGS2, and FCS1.
 ! 19-OCT-2005, P. Emma
@@ -509,7 +509,7 @@
 !   types (Q150kG: ID=23 mm, Q80kG: ID=36 mm).
 !   Replace QA11 & QA12 with ET quads (were QE's).
 ! 13-JUL-2005, P. Emma
-!   Replace XC21202 (original XCOR) near Q21201 and put back XC21302 and
+!   Replace XC21175 (original XCOR) near Q21201 and put back XC21302 and
 !   YC21303 which were removed when the 21-2/3a RF sections were removed.
 !   Move TCAV3 to 25-2d for better sigZ resolution and adjust MUY in L3 to
 !   get back to 270-deg between TCAV3 and OTR30 (plus small MUX L3 tweak
@@ -521,7 +521,7 @@
 !    class-4: |BL| < 0.0600 kG-m (nominal linac corrector)
 !    class-5: |BL| < 0.1200 kG-m (strong linac corrector)
 ! 09-JUL-2005, P. Emma
-!   Change XCA11,12, YCA11,12 to type-0 (was type-1 due to wrap-around),
+!   Change XC21135,12, YC21136,12 to type-0 (was type-1 due to wrap-around),
 !   change YC5,XC6,XCA0 to type-2 (was no type before - don't know why),
 !   change XCE31,YCE32,XCE33,YCE34,XCE35,YCE36 to type-1 (was type-2 because
 !   type-2 was cut at 0.02 kG-m - 0.025 kG-m cut is better).
@@ -604,13 +604,13 @@
 !   (in kG-m of integrated dipole field) prior to installation at
 !   the level of <1% accuracy, if possible. (sent to Rago in Fall 2004)
 !   DL1-Area:   XC05 & YC05
-!   BC1-Area:   XCA12 & YCA11
+!   BC1-Area:   XC21165 & YC21136
 !   BC2-Area:   XC24702 & YC24703
 !   LTU-Area:   XCVM2 & YCVM1
 ! 01-DEC-2004, P. Emma
 !    Move BC1-area devices per Bill Brooks list:
-!     1) YCM12  relocated downstream to 21.233 m (was  21.055 m)
-!     2) XCM13  relocated downstream to 21.904 m (was  21.726 m)
+!     1) YC21276  relocated downstream to 21.233 m (was  21.055 m)
+!     2) XC21275  relocated downstream to 21.904 m (was  21.726 m)
 !     3) IMBC1O relocated upstream   to 22.500 m (was  26.576 m)
 !     4) OTR12  relocated upstream   to 23.900 m (was  24.195 m)
 !     5) XCM14  relocated upstream   to 26.988 m (was  27.242 m)
@@ -671,8 +671,8 @@
 ! 16-SEP-2004, P. Emma
 !    Move Q21201 downstream by 0.035512 m for better fit of X-band structure.
 !    Move X-band structure upstream by 0.016491 m for Bill Brooks. Move IMBC1I
-!    toroid from BX11 face to just 8 cm downstream of Q21201. Move YC21203 and
-!    XCM11 to between Q21201 and QM11 as 4-coil combined x/y corrector. Verified
+!    toroid from BX11 face to just 8 cm downstream of Q21201. Move YC21174 and
+!    XC21191 to between Q21201 and QM11 as 4-coil combined x/y corrector. Verified
 !    all 22 "ZLIN..." markers, from ZLIN01 to "DUMP" - all OK. Remove PRWIG,
 !    since it is now called PRXRAY and placed in the Y-wiggler.
 ! 17-AUG-2004, P. Emma
